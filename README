@@ -1,0 +1,15 @@
+QtOpenGLDemo
+------------
+
+Builds a sample QtOpenGL program on Mac OS X, Linux and Windows using cmake.
+
+Instructions
+------------
+
+mkdir -p build/<platform>
+cd build/platform
+cmake ../..
+./QtOpenGLDemo
+
+Where platform = {macosx, linux, windows}
+
